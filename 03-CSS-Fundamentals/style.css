@@ -82,6 +82,26 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
-body {
-  /* background-color: azure; */
+/* body {
+  background-color: azure;
+} */
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: red;
+} */
+
+li:nth-child(even) {
+  /* color: red; */
 }
