@@ -47,6 +47,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 /* SMALLER ELEMENTS */
@@ -234,7 +235,7 @@ h2 {
 }
 
 h2::after {
-  content: 'TOP';
+  content: "TOP";
   color: #444;
   background-color: #ffe70e;
   font-size: 16px;
@@ -289,7 +290,7 @@ nav {
 }
 
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
